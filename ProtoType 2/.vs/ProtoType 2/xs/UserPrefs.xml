@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{7FFC19C9-6C31-96F6-AF31-6E82A17F3BD5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Challenge 1/Scripts/propellerSpin.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="7" Column="34" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Challenge 1/Scripts/FollowPlayerX.cs" Line="6" Column="34" />
+      <File FileName="Assets/Challenge 1/Scripts/PlayerControllerX.cs" Line="28" Column="39" />
+      <File FileName="Assets/Challenge 1/Scripts/propellerSpin.cs" Line="16" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
