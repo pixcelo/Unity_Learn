@@ -64,7 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Challenge 2\Scripts\DestroyOutOfBoundsX.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\PlayerControllerX.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
     <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
+    <Compile Include="Assets\Scripts\DetectCollisions.cs" />
     <Compile Include="Assets\Scripts\MoveForward.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
@@ -251,6 +257,15 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.14f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.14f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -609,6 +624,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -620,6 +638,9 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/tetsu/Unity_Projects/Unity_Learn/ProtoType 2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
