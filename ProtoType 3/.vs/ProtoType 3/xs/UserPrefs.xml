@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A1D6E052-9028-E90F-0454-4D89ECD78B61}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveLeft.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="52" Column="25" />
-      <File FileName="Assets/Scripts/SpawnManager.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="9" Column="16" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" />
       <File FileName="Assets/Scripts/MoveLeft.cs" Line="14" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
