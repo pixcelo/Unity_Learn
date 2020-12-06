@@ -412,6 +412,7 @@ GameObject:
   - component: {fileID: 835818922}
   - component: {fileID: 835818923}
   - component: {fileID: 835818924}
+  - component: {fileID: 835818925}
   m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
@@ -520,12 +521,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.79999, y: 18.781641, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &835818925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835818919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3bd79bd72262474b807f7758b107c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &921038597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100066, guid: fe32ce89f99911a478ea9e6736294382,
     type: 3}
   m_PrefabInstance: {fileID: 1762582354}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &921038598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921038597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db68837738174a33b2a157dd95c521e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &921038602
 AudioSource:
   m_ObjectHideFlags: 0
@@ -689,6 +714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209366928}
+  - component: {fileID: 1209366929}
   - component: {fileID: 1209366927}
   m_Layer: 0
   m_Name: Spawn Manager
@@ -706,11 +732,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1209366926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09203c1ffd7f749e4b8249586951d854, type: 3}
+  m_Script: {fileID: 11500000, guid: 8946a7fb8905047a78bb0175360171af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 8651048368873034983, guid: 6a85e0852e038405bb5f44ad788197e2,
-    type: 3}
 --- !u!4 &1209366928
 Transform:
   m_ObjectHideFlags: 0
@@ -725,6 +749,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1209366929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209366926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3aec7abea7f34072aa516deb6744d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &1687769471 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 9125212449126766092, guid: fe32ce89f99911a478ea9e6736294382,
@@ -810,7 +846,8 @@ PrefabInstance:
       propertyPath: isOnGround
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1873655023, guid: fe32ce89f99911a478ea9e6736294382, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe32ce89f99911a478ea9e6736294382, type: 3}
 --- !u!4 &1762582355 stripped
 Transform:
