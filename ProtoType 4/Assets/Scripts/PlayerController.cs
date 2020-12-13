@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private float powerupStrength = 15.0f;
     public float speed = 5.0f;
     public bool hasPowerup;
+    public GameObject powerupIndicator;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,9 @@ public class PlayerController : MonoBehaviour
     {
         float forwardInput = Input.GetAxis("Vertical");
         playerRb.AddForce(focalPoint.transform.forward * speed * forwardInput);
+
+        // パワーアップエフェクトの表示場所
+        powerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
     }
 
     // パワーアップアイテムを取った場合
@@ -32,6 +36,7 @@ public class PlayerController : MonoBehaviour
             hasPowerup = true;
             Destroy(other.gameObject);
             StartCoroutine(PowerupCountdownRoutine());
+            powerupIndicator.gameObject.SetActive(true);
         }
     }
 
@@ -40,6 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(7);
         hasPowerup = false;
+        powerupIndicator.gameObject.SetActive(false);
     }
 
     // 敵とぶつかった場合
